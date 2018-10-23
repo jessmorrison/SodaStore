@@ -34,3 +34,4 @@ C:\Users\jessm\Documents\CodingTemple\Week 8 - Entity Framework\SodaStore\SodaSt
 C:\Users\jessm\Documents\CodingTemple\Week 8 - Entity Framework\SodaStore\SodaStore\obj\Debug\netcoreapp2.1\SodaStore.pdb
 C:\Users\jessm\Documents\CodingTemple\Week 8 - Entity Framework\SodaStore\SodaStore\obj\Debug\netcoreapp2.1\SodaStore.csproj.CopyComplete
 C:\Users\jessm\Documents\CodingTemple\Week 8 - Entity Framework\SodaStore\SodaStore\obj\Debug\netcoreapp2.1\Razor\Views\Products\Index.g.cshtml.cs
+C:\Users\jessm\Documents\CodingTemple\Week 8 - Entity Framework\SodaStore\SodaStore\obj\Debug\netcoreapp2.1\Razor\Views\Products\List.g.cshtml.cs

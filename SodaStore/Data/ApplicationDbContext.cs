@@ -24,5 +24,6 @@ namespace SodaStore.Data
         public decimal? Price { get; set; }
         public DateTime? Created { get; set; }
         public DateTime? LastModified { get; set; }
+        public string ImageURL { get; set; }
     }
 }
