@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using SodaStore.Models;
+
 namespace SodaStore.Controllers
 {
     public class ProductsController : Controller

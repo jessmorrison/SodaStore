@@ -12,5 +12,17 @@ namespace SodaStore.Data
             : base(options)
         {
         }
+
+        public DbSet<SodaProduct> SodaProducts { get; set; }
+    }
+
+    public class SodaProduct
+    {
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public decimal? Price { get; set; }
+        public DateTime? Created { get; set; }
+        public DateTime? LastModified { get; set; }
     }
 }

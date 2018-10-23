@@ -34,9 +34,22 @@ namespace SodaStore
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+
+
+            //look here for Entity Framework
+            //OPTIONS FOR DATABASE
+
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
+            //Great for Unit Testing!
+            //options.UseInMemoryDatabase("fake_database");     
+            //For MySQL, I've preferred to the Pomelo.EntityFrameworkCore.MySql NuGet Package,
+            //longer term, the MySql.Data.EntityFrameworkCore is probably going to be used more often.
+            //options.UseMySql(Configuration.GetConnectionString("MySqlConnection")));
+
+           options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+
+
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
